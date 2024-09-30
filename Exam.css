@@ -1,0 +1,27 @@
+header{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+.h{ 
+    display: flex;
+    margin: 32px 24px ;
+    gap: 10px;
+    align-items: center;
+}
+.font{
+    display: flex; 
+    gap: 16px; 
+    margin: 32px 24px ;
+    align-items: center;
+}
+.icon{
+   display: flex;
+   align-items: center;
+   gap: 16px; 
+   
+}
+@media screen {
+    
+}
