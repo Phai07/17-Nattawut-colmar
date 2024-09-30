@@ -1,5 +1,10 @@
 
-
+p{
+    margin: 0;
+}
+h4{
+    margin: 0;
+}
 
 header{
  display: flex;
@@ -28,31 +33,81 @@ header{
 }
 
 
-
-
+/* box1 */
 .box1{
     background-color: rgb(183, 187, 190);
     display: flex;
-    padding: 32px 24px;
-    align-items: center;
+    flex-direction: row;
+   padding: 32px 24px;
+    gap: 24px;
 }
-
-.img{
+.img1{
 width: 60%;
 }
-
-.box2{
-    padding: 0px 24px;
+img{
+    width: 100%;
+}
+.box11{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     gap: 10px;
-    justify-content: space-between;
+   font-size: 80%;
+}
+button{
+    background-color: rgb(59, 58, 58);
+    padding: 8px 0;
+   font-size: 80%;
+   color: aliceblue;
+   width: 60%;
+}
+
+/* box2 */
+.box2{
+    display: flex;
+    flex-direction: row;
+     padding: 32px 24px;
+    gap: 24px;
+}
+.box21{
+    width: 60%;
+}
+.box23{
+ 
+} 
+.box22{
+    width: 40%;
+}
+.img2{
+    width: 35%;
+}
+.box221{
+    display: flex;
+    flex-direction: row;
+    padding: 16px 16px;
+
+}
+.box221-1{
+    width: 65%;
+    gap:8px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 16px;
+   font-size: 20px;
 }
 
 
 
 
 
+
+/* body:hover{
+    background-color: rgb(0, 119, 237);
+} */
+
   /* moblie */
-@media screen and (max-width: 895px) and (min-width: 400px) {
+@media screen and (max-width: 700px) and (min-width: 400px) {
     .f{
         display: none;
         padding: 16px 0;}
@@ -62,13 +117,18 @@ width: 60%;
         width: 100%;
         padding: 16px 0;
      }
+     .box1{
+        display: flex;
+        flex-direction: column;
+     }
+     
 }
 
 /* web */
-@media screen and (max-width: 2000px)and (min-width: 600px) {
+@media screen and (max-width:2000px)and (min-width: 600px) {
     .icon{
         display: none;
-
     }
+    
     
 }
